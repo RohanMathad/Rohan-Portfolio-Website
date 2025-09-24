@@ -155,12 +155,12 @@
     <div id="contact">
         <div class="container">
             <div class="row">
-                <div class="contact-left"> <!-- This is my contact details -->
+                <div class="contact-left">
                     <h1 class="subtitle">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>  rohmsde@gmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>  mathadrohan72@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i>    +91 7666769357</p>
                     <div class="social-icons">
-                        <!-- write complete profile url in href, ur personal profile url -->
+                        
                          <a href="https://www.linkedin.com/in/rohan-mathad-77aa48266/"><i class="fa-brands fa-linkedin"></i></a>
                          <a href="#"><i class="fa-brands fa-facebook"></i></a>
                          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
@@ -168,8 +168,8 @@
                     </div>
                     <a href="./Front-End Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
-                <div class="contact-right"> <!-- This is users contact details which he will post -->
-                    <form name="submit-to-google-sheet"> <!-- Name changed at the end -->
+                <div class="contact-right"> 
+                    <form name="submit-to-google-sheet"> 
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="text" name="email" placeholder="Your Email-Id" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
@@ -186,7 +186,7 @@
     </div>
 
 
-<!-- ye kuch samaj nahi aaya !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
 <script>
     var mytablinks = document.getElementsByClassName("tab-links");
@@ -230,7 +230,6 @@
     form.addEventListener('submit', e => {
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        // this added by us ---------------------------------------------
         .then(response => {
             msg.innerHTML = "Message sent successfully"
             setTimeout(function(){
@@ -238,7 +237,6 @@
             }, 3500)
             form.reset()
         })
-        // up ----------------------------
         .catch(error => console.error('Error!', error.message))
     })
   </script>
@@ -247,9 +245,3 @@
 </body>
 </html>
 
-<!-- SHORTCUTS 
- 
-Ctrl + D is the shortcut to select same words multiple occurrences 
-Comment shortcurt ctrl + /
-Shift + Alt + Up/Down(keyboard button) to copy the current line to next lin
--->
