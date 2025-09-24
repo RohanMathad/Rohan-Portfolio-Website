@@ -17,7 +17,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(./images/MyImg.png);
+    background-image: url(./images/My\ img\ 2.png);
     background-size: cover;
 
     /* background-position: 90px 30px; Moves image 90px right, 30px down */
@@ -386,7 +386,7 @@ form .btn2{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(./images/MyImg99.png);
+        background-image: url(./images/My\ Img\ 992.png);
     }
 
     .header-txt {
